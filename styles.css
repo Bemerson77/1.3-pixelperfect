@@ -1,0 +1,13 @@
+body {
+margin: 0;
+
+}
+
+header {
+  background-image: url("images/placeholder.png");
+  height: 523px;
+}
+
+img {
+  max-width:100%;
+}
