@@ -8,9 +8,10 @@ color: white
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 header {
-  background: url("images/placeholder-mountains.jpg") center;
+  background: linear-gradient(
+      rgba(0, 109, 199, 0.71),
+      rgba(0, 109, 199, 0.71)), url("images/placeholder-mountains.jpg") center;
   background-size: cover;
   height: 523px;
   overflow: hidden;
@@ -19,44 +20,54 @@ h1 {
   font-size: 76px;
   padding-top: 190px;
   margin: 0;
-
 }
 .title {
   position: relative;
   text-align: center;
   font-family: open sans;
   font-weight: lighter;
-
 }
-.icon {
+.nav-bar {
   list-style: none;
   display: inline-block;
   float: left;
+  position: relative;
 }
-.icon div {
+.nav-bar div {
   position: relative;
   padding: 0 0 45px 5px;
   vertical-align: top;
   display: inline-block;
   vertical-align: middle;
 }
-.icon > a {
+.nav-bar > a {
   display: inline-block;
   height: 53px;
   margin: 5px 0 0 130px;
 }
-.nav-bar {
+.nav-contain {
   margin: 0;
+  position: relative;
+}
+#search {
+  float: right;
+  margin-top: 40px;
+
+}
+#search a {
+  position: relative;
+  margin: 0 0 0 0;
+  float: right;
+
+}
+#menu-bar {
+  font-size: 16px;
 }
 h3 {
   position: relative;
   margin: 0;
-
-
-
 }
 h4 {
   margin: 0;
   font-size: 11px;
-
 }
