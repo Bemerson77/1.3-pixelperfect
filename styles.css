@@ -1,13 +1,43 @@
 body {
 margin: 0;
+color: white
+}
 
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 header {
-  background-image: url("images/placeholder.png");
+  background: url("images/placeholder-mountains.jpg") center;
+  background-size: cover;
   height: 523px;
+  overflow: hidden;
 }
+h1 {
+  font-size: 76px;
+  padding-top: 170px;
+  margin: 0;
 
-img {
-  max-width:100%;
+}
+.title {
+  position: relative;
+  text-align: center;
+  font-family: open sans;
+  font-weight: lighter;
+
+}
+.icon {
+  list-style: none;
+}
+h3 {
+  position: relative;
+  margin: 0;
+
+
+
+}
+h4 {
+  margin: 0;
 }
